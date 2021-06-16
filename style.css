@@ -1,3 +1,18 @@
+section {
+  display: flex;
+  flex-direction: column
+}
+
+#evaluation-form {
+  display: flex;
+  flex-direction: column
+  width: 675px;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+}
+
 footer {
   position: fixed;
   left: 0;
