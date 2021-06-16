@@ -25,13 +25,24 @@ section {
   display: flex;
   height: 60%;
   width: 100%;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 #evaluation-form {
   display: flex;
   flex-direction: column;
   width: 675px;
+}
+
+.form-column {
+  margin-left: 19%;
+}
+
+.form-header {
+  margin-left: 0;
+  align-self: center;
+  font-size: xx-large;
+  font-style: oblique;
 }
 
 .trybewarts-login {
