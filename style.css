@@ -1,3 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  width: 100%;
+  height: 20%;
+  left: 0;
+  top: 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(50, 167, 145);
+}
+
 section {
   display: flex;
   flex-direction: column
@@ -9,8 +26,23 @@ section {
   width: 675px;
 }
 
+.trybewarts-login {
+  display: flex
+}
+
 #trybewarts-forms-logo {
   height: 500px;
+}
+
+
+.trybewarts-header-logo{
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+#trybewarts-header-title {
+  color: white;
 }
 
 footer {
@@ -21,4 +53,6 @@ footer {
   background-color: rgb(39, 39, 39);
   color: white;
   text-align: center;
+  height: 20px;
+  padding: 20px;
 }
