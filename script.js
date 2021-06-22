@@ -13,12 +13,11 @@ const setButton = () => {
 
 setButton();
 
-// function agreementChanged(termsCheckBox) {
-//   if (termsCheckBox.checked) {
-//     document.getElementById('submit-btn').disabled = false;
-//   } else {
-//     document.getElementById('submit-btn').disabled = true;
-//   }
-// }
-
+const agreementChanged = termsCheckBox => {
+  if (termsCheckBox.checked) {
+    document.getElementById('submit-btn').disabled = false;
+  } else {
+    document.getElementById('submit-btn').disabled = true;
+  }
+}
 // agreementChanged(termsCheckBox);
