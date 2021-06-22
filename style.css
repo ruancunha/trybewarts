@@ -46,7 +46,7 @@ section {
 }
 
 .form-column {
-  margin-left: 19%;
+  margin-left: 20%;
 }
 
 .form-header {
@@ -58,6 +58,11 @@ section {
 
 #trybewarts-forms-logo {
   height: 500px;
+}
+
+#familiesRadio {
+  display: flex;
+  flex-direction: column;
 }
 
 footer {
