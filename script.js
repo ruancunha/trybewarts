@@ -13,11 +13,10 @@ const setButton = () => {
 
 setButton();
 
-const agreementChanged = (termsCheckBox) => {
-  if (termsCheckBox.checked) {
+document.querySelector('#agreement').addEventListener('onclick', () => {
+  if (this.checked) {
     document.getElementById('submit-btn').disabled = false;
   } else {
     document.getElementById('submit-btn').disabled = true;
   }
-};
-// agreementChanged(termsCheckBox);
+});
