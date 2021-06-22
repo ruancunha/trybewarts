@@ -13,8 +13,10 @@ const setButton = () => {
 
 setButton();
 
-document.querySelector('#agreement').addEventListener('onclick', () => {
-  if (this.checked) {
+const agreement = document.querySelector('#agreement');
+
+agreement.addEventListener('change', () => {
+  if (agreement.checked) {
     document.getElementById('submit-btn').disabled = false;
   } else {
     document.getElementById('submit-btn').disabled = true;
