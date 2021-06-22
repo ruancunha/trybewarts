@@ -12,3 +12,11 @@ const setButton = () => {
 };
 
 setButton();
+
+document.querySelector('#agreement').addEventListener('onclick', () => {
+  if (this.checked) {
+    document.getElementById('submit-btn').disabled = false;
+  } else {
+    document.getElementById('submit-btn').disabled = true;
+  }
+});
