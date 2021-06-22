@@ -12,3 +12,11 @@ const setButton = () => {
 };
 
 setButton();
+
+function agreement_changed(termsCheckBox){
+  if(termsCheckBox.checked){
+      document.getElementById("submit-btn").disabled = false;
+  } else{
+      document.getElementById("submit-btn").disabled = true;
+  }
+}
