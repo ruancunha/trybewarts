@@ -65,6 +65,16 @@ section {
   flex-direction: column;
 }
 
+#label-rate {
+  display: flex;
+  flex-direction: row;
+}
+
+#label-infos {
+  display: flex;
+  flex-direction: row;
+}
+
 footer {
   position: fixed;
   left: 0;
