@@ -15,10 +15,10 @@ setButton();
 
 function agreementChanged(termsCheckBox) {
   if (termsCheckBox.checked) {
-    document.getElementById('submit-btn').disabled = false;
+    document.getElementById("submit-btn").disabled = false;
   } else {
-    document.getElementById('submit-btn').disabled = true;
+    document.getElementById("submit-btn").disabled = true;
   }
 }
 
-agreementChanged();
+// agreementChanged(termsCheckBox);
