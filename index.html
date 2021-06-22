@@ -10,21 +10,15 @@
 <body>
   <header class="header">
     <!-- LogoTipo TrybeWarts -->
-    <div>
-      <img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg" alt="LogoTipoTrybeWarts">
-    </div>
+    <img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg" alt="LogoTipoTrybeWarts">
     <!-- Nome Principal -->
-    <div>
-      <h1 id="trybewarts-header-title">Trybewarts</h1>
-    </div>
+    <h1 id="trybewarts-header-title">Trybewarts</h1>
     <!-- Login e Senha -->
-    <div>
-      <form action="" class="trybewarts-login">
-        <input type="text" placeholder="Login">
-        <input type="password" placeholder="Senha">
-        <button>Login</button>
-      </form>
-    </div>
+    <form action="" class="trybewarts-login">
+      <input id="login" type="text" placeholder="Login">
+      <input id="password" type="password" placeholder="Senha">
+      <button id="loginButton">Login</button>
+    </form>
   </header>
   <!-- Hero -->
   <main id="hero">
@@ -71,6 +65,56 @@
             <label for="10">10</label>
         </label>
       </div>
+      <div class="form-column">
+        <label id="label-family" for="families">
+          Qual sua família?
+        </label>
+        <div id="familiesRadio">
+          <label for="frontend">
+            <input id="frontend" type="radio" name="family" value="Frontend">
+            Frontend
+          </label>
+          <label for="backend">
+            <input id="backend" type="radio" name="family" value="Backend">
+            Backend
+          </label>
+          <label for="fullstack">
+            <input id="fullstack" type="radio" name="family" value="FullStack">
+            FullStack
+          </label>
+        </div>
+        <label id="label-content" for="subjectsCheckBox">
+          Qual conteúdo você está com mais vontade de aprender?
+        </label>
+        <div id="subjectsCheckBox">
+          <label class="subject" for="hofs">
+            <input id="hofs" type="checkbox" value="HoFs">
+            HoFs
+          </label>
+          <label class="subject" for="jest">
+            <input id="jest" type="checkbox" value="Jest">
+            Jest
+          </label>
+          <label class="subject" for="promises">
+            <input id="promises" type="checkbox" value="Promises">
+            Promises
+          </label>
+          <label class="subject" for="react">
+            <input id="react" type="checkbox" value="React">
+            React
+          </label>
+          <label class="subject" for="sql">
+            <input id="sql" type="checkbox" value="SQL">
+            SQL
+          </label>
+          <label class="subject" for="python">
+            <input id="python" type="checkbox" value="Python">
+            Python
+          </label>
+        </div>
+
+      </div>
+
     </form>
     <!-- Imagem Principal -->
     <img class="hero-item" id="trybewarts-forms-logo" src="images/trybewarts-colored.svg">
@@ -82,5 +126,7 @@
   <footer>
     <p>Direitos reservados à Trybewarts©</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>

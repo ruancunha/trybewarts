@@ -10,24 +10,6 @@
   background-color: rgb(50, 167, 145);
 }
 
-.header div {
-  flex-basis: 1;
-}
-
-.header div:nth-child (1) {
-  display: flex;
-  align-items: center;
-  order: 1;
-}
-
-.header div:nth-child (2) {
-  order: 2;
-}
-
-.header div:nth-child (3) {
-  order: 3;
-}
-
 section {
   display: flex;
   flex-direction: column;
@@ -64,7 +46,7 @@ section {
 }
 
 .form-column {
-  margin-left: 19%;
+  margin-left: 20%;
 }
 
 .form-header {
@@ -76,6 +58,11 @@ section {
 
 #trybewarts-forms-logo {
   height: 500px;
+}
+
+#familiesRadio {
+  display: flex;
+  flex-direction: column;
 }
 
 footer {
